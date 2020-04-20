@@ -1,0 +1,38 @@
+.navbar-nav .nav-item{
+    margin-right:20px;
+    padding: auto;
+}
+/*.navbar-brand{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    line-height:normal;
+    text-align: center;
+}
+p{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    text-align: center;
+    margin-left:25px;
+}-->*/
+.navbar-brand::after{
+    content:"MONTREAL";
+    display: block;
+    margin-left:35px;
+    margin-top: 0px;
+    line-height: 0px;
+    padding-bottom: 10px;
+    font-style: normal;
+    letter-spacing: normal;
+ }
+.navbar{
+    margin-bottom: 0px;
+}
+.navbar-nav{
+        font-family: 'Arvo', serif;
+        font-weight: 400;
+}
+.navbar-nav:hover{
+    color:white;
+}
+

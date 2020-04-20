@@ -1,0 +1,15 @@
+.row{
+    margin-bottom: 10px;
+}
+.container{
+    margin-bottom: 40px;
+}
+.card-text{
+    color:blue;
+    font-size: larger;
+}
+
+.card{
+    border:2px solid blue;
+    padding-top:10px;
+}

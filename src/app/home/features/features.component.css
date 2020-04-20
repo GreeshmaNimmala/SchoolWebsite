@@ -1,0 +1,53 @@
+img{
+    width:100%;
+    height:100%;
+    opacity: 0.9;
+    
+}
+.col-md-3{
+    position: relative;
+}
+.text-img{
+    position: absolute;
+    top: 8px;
+    left: 20px;
+    color:white;
+    font-weight: bolder;
+    font-size: x-large;
+    font-family: 'Roboto Slab', serif;
+}
+.hover-text{
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    visibility: hidden;
+    background-color: tomato;
+    color:white;
+    position: absolute;
+    width:100%;
+    height: 100%;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 700;
+
+    
+}
+
+.col-md-3:hover .hover-text{
+    visibility: visible;
+}
+.col-md-3:hover .text-img{
+    display: none;
+}
+button{
+    position: relative;
+    color: white;
+    
+}
+button::after{
+    content:">>";
+}
+.col-md-3:hover button{
+    transition: all 2s ease-out 1s;
+}
